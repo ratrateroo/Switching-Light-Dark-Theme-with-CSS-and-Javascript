@@ -120,6 +120,7 @@
 
   * {
     color: var(--fontColor);
+    transition: background-color 0.6s ease, color 1s ease;
   }
   
   nav {
@@ -133,3 +134,17 @@
   main {
     background: var(--mainBg);
   }
+
+  .light-theme {
+    --themeSwitchColor: var(--sage);
+  }
+  
+  .dark-theme {
+    --themeSwitchColor: var(--msuGreen);
+  }
+  
+  .slider {
+    background-color: var(--themeSwitchColor);
+  }
+
+  
