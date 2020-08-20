@@ -117,3 +117,19 @@
     --mainBg: var(--msuGreen);
     --fontColor: var(--white);
   }
+
+  * {
+    color: var(--fontColor);
+  }
+  
+  nav {
+    background: var(--navBg);
+  }
+  
+  nav ul li:hover {
+    background-color: var(--navLinkHoverBg);
+  }
+  
+  main {
+    background: var(--mainBg);
+  }
